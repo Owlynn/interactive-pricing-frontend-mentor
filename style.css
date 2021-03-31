@@ -11,13 +11,23 @@
     justify-content: space-evenly;
 }
 
-.titles {
+.bloc-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url("images/bg-pattern.svg");
+    width: 1500px;
+    height: 500px;
 }
 
-.bloc-slider {
-    /* display: flex;
-    flex-direction: row; */
-    background-color: hsl(0, 0%, 100%);
-    width: 1500px;
+.numbers, .billing, .perks-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+li{
+    list-style-type: none;
 }
